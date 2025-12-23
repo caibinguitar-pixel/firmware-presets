@@ -1,4 +1,4 @@
-#$ TITLE: syrc led
+#$ TITLE: SYRC Bone LEDS
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: LEDS
 #$ STATUS: OFFICIAL
@@ -12,8 +12,8 @@
 
 #--- Set up Race mode ---
 
-set ledstrip_profile = RACE
-set ledstrip_race_color = BLACK
+set ledstrip_profile = STATUS
+set ledstrip_race_color = RGB
 
 
 # --- Set LED ---
@@ -54,6 +54,26 @@ set ledstrip_race_color = BLACK
         led 7 7,5::COV:1
     #$ OPTION END
 
+    #$ OPTION BEGIN (UNCHECKED): Set 16 LEDs
+        led 0 2,3::COV:1
+        led 1 3,3::COV:1
+        led 2 4,3::COV:1
+        led 4 6,3::COV:1
+        led 5 7,3::COV:1
+        led 6 8,3::COV:1
+        led 7 7,5::COV:1
+        led 8 8,6::COV:1
+        led 9 9,7::COV:1
+        led 10 10,8::COV:1
+        led 11 11,9::COV:1
+        led 12 12,10::COV:1
+        led 13 13,11::COV:1
+        led 14 14,12::COV:1
+        led 15 15,13::COV:1
+    #$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Set up style of LEDS
     #$ OPTION BEGIN (UNCHECKED): Set 16 LEDs
         led 0 2,3::COV:1
         led 1 3,3::COV:1

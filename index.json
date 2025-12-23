@@ -7794,8 +7794,8 @@
     },
     {
       "fullPath": "presets/4.5/leds/syrc led.txt",
-      "hash": "8ede764d7929a763cf2e704dab8713abcfcf7240ca1c1eac01c1dad046947c55",
-      "title": "syrc led",
+      "hash": "91ba617cff8afaf358e8ff7e46f961a8b2c56c37baa59ec4f6c1eb1e5b97d7d4",
+      "title": "SYRC Bone LEDS",
       "firmware_version": [
         "4.5"
       ],
